@@ -1,4 +1,4 @@
-# Movie Review App
+# Movie Recomendation website
 
 Welcome to the Movie Review App repository! This full-stack application is built using Java Spring Boot for the backend API and ReactJS for the frontend user interface. The backend utilizes MongoDB Atlas cloud as the database to store and manage movie data and user reviews.
 
