@@ -3,6 +3,7 @@ import api from './api/axiosConfig';
 import { useState, useEffect } from 'react';
 import Layout from './components/Layout';
 import { Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 
 import Home from './components/home/Home';
 import Header from './components/header/Header';
@@ -65,6 +66,8 @@ function App() {
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
             />
+
+            <Analytics />
 
             <Routes>
 
