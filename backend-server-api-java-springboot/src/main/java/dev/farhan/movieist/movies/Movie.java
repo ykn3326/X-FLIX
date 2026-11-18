@@ -3,6 +3,7 @@ package dev.farhan.movieist.movies;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -10,6 +11,7 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 @Document(collection = "movies")
 @Data
 @AllArgsConstructor

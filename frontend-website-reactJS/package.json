@@ -2,6 +2,7 @@
   "name": "movie-gold-v1",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8080",
 
   "engines": {
     "node": "20.x"
